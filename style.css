@@ -25,7 +25,7 @@ main {
   width: 384px;
   height: 522px;
   background-color: var(--card-color);
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 24px;
   gap: 24px;
   box-shadow: 8px 8px 0px 0px;
@@ -44,6 +44,8 @@ main {
   justify-content: space-between;
 }
 #card__content h1 {
+  width: 336px;
+  height: 36px;
   font-size: 24px;
   color: var(--primary-text-color);
 }
@@ -59,12 +61,18 @@ main {
   gap: 8px;
   padding: 12px;
   border-radius: 4px;
-  font-size: 14px;
   font-weight: bold;
+}
+#card__tag p {
+  width: 58px;
+  height: 21px;
+  font-size: 14px;
 }
 
 #card__text {
   font-size: 16px;
+  width: 336px;
+  height: 72px;
   font-weight: medium;
   color: var(--secundary-text-color);
 }
@@ -73,11 +81,13 @@ main {
   font-weight: medium;
 }
 #date-post {
+  width: 143px;
+  height: 21px;
   font-size: 14px;
 }
-#title h1:hover {
-  color: var(--background-color);
+#card__content h1:hover {
   cursor: pointer;
+  color: var(--background-color);
 }
 #card__author {
   display: flex;
